@@ -1,0 +1,13 @@
+1.Understanding the problem statement. 
+2.Create structure (folder ) of project.
+3."I used a virtual environment to isolate dependencies and avoid version conflicts between projects."
+4."I loaded the dataset using pandas and verified the structure using head() to understand columns and data types."
+5."I performed initial data inspection using info() and describe() to understand data types, missing values, and distribution of numerical features."
+6."I started EDA by analyzing churn distribution to understand the proportion of customers leaving."
+    a->"The number of customers who did not churn is significantly higher than those who churned, indicating that the majority of customers are retained.    However, the churned segment is still substantial and requires further analysis."
+
+    b->"Around 25–30% of customers have churned, which is a significant portion and indicates a potential business problem."
+    c->"Customers with month-to-month contracts have the highest churn because they are not locked into long-term commitments, making it easier for them to leave."
+    d->"Customers with lower tenure are more likely to churn, indicating that early-stage customers are at higher risk of leaving."
+
+
